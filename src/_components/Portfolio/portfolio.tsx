@@ -1,6 +1,6 @@
 export default function Portfolio() {
     return (
-        <section className="bg-[#f5f5f5] py-16 px-4">
+        <section id="portfolio" className="bg-[#f5f5f5] py-16 px-4">
             <p className="text-orange-500 text-center text-sm sm:text-base font-medium">
                 Nosso Trabalho
             </p>

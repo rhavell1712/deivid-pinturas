@@ -2,7 +2,7 @@ import { Brush, Clock, Star } from "lucide-react"
 
 export default function About() {
     return (
-        <section className="py-20 px-4 bg-[#f5f5f5]">
+        <section id="about" className="py-20 px-4 bg-[#f5f5f5]">
 
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 

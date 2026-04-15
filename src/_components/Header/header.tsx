@@ -16,19 +16,19 @@ export function Header() {
                 {/* NAV DESKTOP */}
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
 
-                    <a href="#" className="hover:text-[#d94e1f] transition">
+                    <a href="#about" className="hover:text-[#d94e1f] transition">
                         Sobre
                     </a>
 
-                    <a href="#" className="hover:text-[#d94e1f] transition">
+                    <a href="#services" className="hover:text-[#d94e1f] transition">
                         Serviços
                     </a>
 
-                    <a href="#" className="hover:text-[#d94e1f] transition">
+                    <a href="#portfolio" className="hover:text-[#d94e1f] transition">
                         Portfólio
                     </a>
 
-                    <a href="#" className="hover:text-[#d94e1f] transition">
+                    <a href="#contact" className="hover:text-[#d94e1f] transition">
                         Contato
                     </a>
 

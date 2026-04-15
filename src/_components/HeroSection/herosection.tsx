@@ -20,6 +20,16 @@ export default function HeroSection() {
             {/* Conteúdo */}
             <div className="relative z-10 w-full max-w-3xl mx-auto px-6 text-center">
 
+                <div className="flex justify-center mb-5">
+                    <div className="flex justify-center items-center w-20 h-20 rounded-full shadow-amber-600 shadow-lg overflow-hidden">
+                        <img
+                            src="/logo-header.png"
+                            alt="Logo"
+                            className="w-full h-full object-contain"
+                        />
+                    </div>
+                </div>
+
                 <span className="inline-block text-xs sm:text-sm bg-[#883e1c]/60 text-[#f4b400] border border-amber-600 rounded-full px-4 py-2 mb-6">
                     Orçamento 100% Gratuito e Sem Compromisso
                 </span>
@@ -42,10 +52,12 @@ export default function HeroSection() {
                     {/* Botão principal */}
                     <a
                         href="#"
-                        className="bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center"
+                        className="flex flex-row gap-3 bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center"
                     >
+                        <img src="/icon-whatsapp.png" alt="icone do whatsapp" className="h-6 w-6" />
                         Solicitar orçamento agora
                     </a>
+
 
                     {/* Botão secundário */}
                     <a

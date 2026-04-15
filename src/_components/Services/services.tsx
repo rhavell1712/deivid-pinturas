@@ -36,7 +36,7 @@ export default function Services() {
     ];
 
     return (
-        <section className="bg-[#f5f5f5] py-16 px-4">
+        <section id='services' className="bg-[#f5f5f5] py-16 px-4">
 
             {/* Título */}
             <div className="text-center mb-12">
