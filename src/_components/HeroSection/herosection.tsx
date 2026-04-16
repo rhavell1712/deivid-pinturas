@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function HeroSection() {
     return (
-        <section className="relative h-svh flex items-center justify-center text-white overflow-hidden">
+        <section id="home" className="relative h-svh flex items-center justify-center text-white overflow-hidden">
 
             {/* Background */}
             <div className="absolute inset-0">
@@ -51,8 +51,10 @@ export default function HeroSection() {
 
                     {/* Botão principal */}
                     <a
-                        href="#"
-                        className="flex flex-row gap-3 bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center"
+                        href="https://wa.me/5527997198676"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-row gap-3 bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center transform transition active:scale-95 hover:scale-105"
                     >
                         <img src="/icon-whatsapp.png" alt="icone do whatsapp" className="h-6 w-6" />
                         Solicitar orçamento agora
@@ -61,8 +63,8 @@ export default function HeroSection() {
 
                     {/* Botão secundário */}
                     <a
-                        href="#"
-                        className="bg-gray-400/20 border border-gray-400 text-white font-medium p-4 rounded-md text-sm text-center"
+                        href="#portfolio"
+                        className="bg-gray-400/20 border border-gray-400 text-white font-medium p-4 rounded-md text-sm text-center transform transition active:scale-95 hover:scale-105"
                     >
                         Portfólio
                     </a>
@@ -92,9 +94,9 @@ export default function HeroSection() {
             </div>
 
             {/* Scroll Indicator */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
+            <a href="#about" className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
                 <div className="w-6 h-6 border-b-2 border-r-2 border-[#d94e1f] rotate-45"></div>
-            </div>
+            </a >
 
         </section>
     )

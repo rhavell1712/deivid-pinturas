@@ -36,7 +36,7 @@ export default function Services() {
     ];
 
     return (
-        <section id='services' className="bg-[#f5f5f5] py-16 px-4">
+        <section id='services' className="bg-[#f5f5f5] py-16 px-4 ">
 
             {/* Título */}
             <div className="text-center mb-12">
@@ -61,7 +61,7 @@ export default function Services() {
                     return (
                         <article
                             key={index}
-                            className="text-black p-6 flex flex-col gap-4 rounded-xl shadow-md bg-white hover:shadow-lg transition"
+                            className="text-black p-6 flex flex-col gap-4 rounded-xl shadow-md bg-white hover:shadow-lg hover:shadow-orange-500/50 transition transform hover:scale-105 duretion-400"
                         >
 
                             <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-100">
@@ -90,8 +90,10 @@ export default function Services() {
                 </p>
 
                 <a
-                    href="#"
-                    className="inline-flex items-center justify-center bg-orange-500 text-white font-semibold px-6 py-3 rounded-md gap-3 hover:bg-orange-600 transition"
+                    href="https://wa.me/5527997198676"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center bg-orange-500 text-white font-semibold px-6 py-3 rounded-md gap-3 transform transition active:scale-95 hover:scale-105"
                 >
                     <img src="/icon-whatsapp.png" alt="icone do whatsapp" className="w-6 h-6" />
                     Fale Conosco no Whatsapp
