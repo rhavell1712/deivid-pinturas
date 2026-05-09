@@ -61,8 +61,16 @@ export default function Services() {
                     return (
                         <article
                             key={index}
-                            className="text-black p-6 flex flex-col gap-4 rounded-xl shadow-md bg-white hover:shadow-lg hover:shadow-orange-500/50 transition transform hover:scale-105 duretion-400"
-                        >
+                            tabIndex={0}
+                            className="
+                            text-black p-6 flex flex-col gap-4 rounded-xl shadow-md bg-white
+                            transition-all duration-300 cursor-pointer outline-none
+
+                            hover:shadow-lg hover:shadow-orange-500/50 hover:-translate-y-2
+
+                            focus:shadow-lg
+                            focus:shadow-orange-400/40
+                            focus:-translate-y-1">
 
                             <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-100">
                                 <Icon size={24} className="text-orange-500" />

@@ -1,4 +1,6 @@
+'use client'
 
+import { Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
     return (
@@ -9,7 +11,7 @@ export default function Footer() {
                 {/* SOBRE */}
                 <div>
                     <h2 className="text-white text-xl font-bold mb-4">
-                        Pinturas Pro
+                        <span className="text-amber-700">Deivid</span>Pinturas
                     </h2>
                     <p className="text-sm leading-relaxed">
                         Transformamos ambientes com pintura profissional, acabamento de qualidade e atenção aos detalhes. Seu espaço renovado com excelência.
@@ -22,24 +24,31 @@ export default function Footer() {
                         Navegação
                     </h2>
                     <ul className="space-y-2 text-sm">
-                        <li><a href="#home" className="hover:text-white transition">Início</a></li>
-                        <li><a href="#sobre" className="hover:text-white transition">Sobre</a></li>
-                        <li><a href="#portfolio" className="hover:text-white transition">Portfólio</a></li>
-                        <li><a href="#contato" className="hover:text-white transition">Contato</a></li>
+                        <li><a href="#home" className="hover:text-amber-700 transition">Início</a></li>
+                        <li><a href="#about" className="hover:text-amber-700 transition">Sobre</a></li>
+                        <li><a href="#services" className="hover:text-amber-700 transition">Serviços</a></li>
+                        <li><a href="#portfolio" className="hover:text-amber-700 transition">Portfólio</a></li>
+
                     </ul>
                 </div>
 
                 {/* CONTATO */}
                 <div>
-                    <h2 className="text-white text-lg font-semibold mb-4">
-                        Contato
-                    </h2>
-                    <ul className="space-y-2 text-sm">
-                        <li>📞 (27) 99999-9999</li>
-                        <li>📧 contato@pinturaspro.com</li>
-                        <li>📍 Espírito Santo - Brasil</li>
-                    </ul>
+                    <div className="flex flex-col gap-3 text-sm font-heading text-white">
 
+                        {/* TELEFONE */}
+                        <div className="flex items-center gap-2">
+                            <Phone size={18} className="text-[#d94e1f]" />
+                            <span>(27) 99719-8676</span>
+                        </div>
+
+                        {/* LOCALIZAÇÃO */}
+                        <div className="flex items-center gap-2">
+                            <MapPin size={18} className="text-[#d94e1f]" />
+                            <span>Domingos Martins - ES</span>
+                        </div>
+
+                    </div>
                     {/* BOTÃO */}
                     <a
                         href="https://wa.me/5527997198676"
@@ -56,7 +65,7 @@ export default function Footer() {
 
             {/* LINHA FINAL */}
             <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} Pinturas Pro. Todos os direitos reservados.
+                © {new Date().getFullYear()} DeividPinturas. Todos os direitos reservados.
             </div>
 
         </footer>

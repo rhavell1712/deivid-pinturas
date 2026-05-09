@@ -54,7 +54,7 @@ export default function HeroSection() {
                         href="https://wa.me/5527997198676"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-row gap-3 bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center transform transition active:scale-95 hover:scale-105"
+                        className="flex items-center justify-center gap-3 bg-[#d94e1f] p-4 rounded-md font-semibold text-base shadow-lg w-full sm:w-auto text-center transform transition active:scale-95 hover:scale-105"
                     >
                         <img src="/icon-whatsapp.png" alt="icone do whatsapp" className="h-6 w-6" />
                         Solicitar orçamento agora

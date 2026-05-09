@@ -7,12 +7,12 @@ export default function About() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
                 {/* IMAGEM */}
-                <div className="relative">
+                <div className="relative h-135 aspect-4/5">
 
                     <img
-                        src="/fundo.jpg"
+                        src="/foto-perfil.jpeg"
                         alt="Pintor profissional"
-                        className="w-full h-100 object-cover rounded-2xl shadow-lg"
+                        className="w-full h-full  object-cover rounded-2xl shadow-lg"
                     />
 
                     {/* Card flutuante (SEM NÚMERO FAKE) */}
