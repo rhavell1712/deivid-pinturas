@@ -7,7 +7,8 @@ export default function About() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
                 {/* IMAGEM */}
-                <div className="relative h-135 aspect-4/5">
+                <div
+                    data-aos="fade-right" className="relative h-135 aspect-4/5">
 
                     <img
                         src="/foto-perfil.jpeg"
@@ -26,7 +27,7 @@ export default function About() {
                 </div>
 
                 {/* TEXTO */}
-                <div>
+                <div data-aos="fade-left">
 
                     <span className="text-sm text-[#d94e1f] font-semibold">
                         SOBRE

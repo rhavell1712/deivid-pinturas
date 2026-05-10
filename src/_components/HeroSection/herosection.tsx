@@ -21,27 +21,27 @@ export default function HeroSection() {
             <div className="relative z-10 w-full max-w-3xl mx-auto px-6 text-center">
 
                 <div className="flex justify-center mb-5">
-                    <div className="flex justify-center items-center w-20 h-20 rounded-full shadow-amber-600 shadow-lg overflow-hidden">
+                    <div data-aos="zoom-in" className="flex justify-center items-center w-20 h-20 rounded-full shadow-amber-600 shadow-lg overflow-hidden">
                         <img
-                            src="/logo-header.png"
+                            src="/apple-touch-icon.png"
                             alt="Logo"
                             className="w-full h-full object-contain"
                         />
                     </div>
                 </div>
 
-                <span className="inline-block text-xs sm:text-sm bg-[#883e1c]/60 text-[#f4b400] border border-amber-600 rounded-full px-4 py-2 mb-6">
+                <span data-aos="zoom-in" className="inline-block text-xs sm:text-sm bg-[#883e1c]/60 text-[#f4b400] border border-amber-600 rounded-full px-4 py-2 mb-6">
                     Orçamento 100% Gratuito e Sem Compromisso
                 </span>
 
-                <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
+                <h1 data-aos="zoom-in" className="font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
                     Pintura profissional que{" "}
                     <span className="text-[#d94e1f]">
                         transforma seu ambiente
                     </span>
                 </h1>
 
-                <p className="text-gray-300 text-base sm:text-lg mt-6">
+                <p data-aos="zoom-in" className="text-gray-300 text-base sm:text-lg mt-6">
                     Qualidade, rapidez e acabamento impecável. Mais de 10 anos
                     entregando resultados de alto padrão.
                 </p>
@@ -51,6 +51,7 @@ export default function HeroSection() {
 
                     {/* Botão principal */}
                     <a
+                        data-aos="zoom-in"
                         href="https://wa.me/5527997198676"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -63,6 +64,7 @@ export default function HeroSection() {
 
                     {/* Botão secundário */}
                     <a
+                        data-aos="zoom-in"
                         href="#portfolio"
                         className="bg-gray-400/20 border border-gray-400 text-white font-medium p-4 rounded-md text-sm text-center transform transition active:scale-95 hover:scale-105"
                     >
@@ -74,17 +76,17 @@ export default function HeroSection() {
                 {/* BENEFÍCIOS */}
                 <div className="flex justify-center gap-6 mt-12 text-sm flex-wrap">
 
-                    <div className="flex items-center gap-2">
+                    <div data-aos="zoom-in" className="flex items-center gap-2">
                         <Award className="text-[#d94e1f]" size={18} />
                         <span>10+ Anos de Experiência</span>
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    <div data-aos="zoom-in" className="flex items-center gap-2">
                         <Shield className="text-[#d94e1f]" size={18} />
                         <span>Serviço com Garantia</span>
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    <div data-aos="zoom-in" className="flex items-center gap-2">
                         <Zap className="text-[#d94e1f]" size={18} />
                         <span>Atendimento Rápido</span>
                     </div>

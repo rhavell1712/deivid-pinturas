@@ -90,6 +90,7 @@ export default function Portfolio() {
                         <DialogTrigger asChild>
 
                             <button
+                                data-aos="zoom-in"
                                 type="button"
                                 onClick={() => setCurrentImage(0)}
                                 className="

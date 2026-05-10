@@ -60,6 +60,7 @@ export default function Services() {
 
                     return (
                         <article
+                            data-aos="zoom-in"
                             key={index}
                             tabIndex={0}
                             className="
